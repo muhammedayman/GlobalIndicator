@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Global Indicator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu1">GlobalIndicator</string>
+    <string name="title_activity_activitylogin">Activitylogin</string>
+    <string name="title_activity_mala_eng">MalaEng</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_custom_list">CustomList</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_threelettercode">Threelettercode</string>
+
+</resources>

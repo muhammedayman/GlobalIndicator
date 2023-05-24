@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    android:background="#EEFF5A"
+    tools:context="com.example.globalindicator.Menu1" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="GI"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/roundbutton"
+        android:ems="10"
+        android:height="40dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundedbutton"
+        android:focusableInTouchMode="true"
+        android:height="40dp"
+        android:onClick="globalI"
+        android:text="Search" />
+    
+ <Button
+     android:id="@+id/bt2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:background="@drawable/roundedbutton"
+     android:height="40dp"
+     android:onClick="resettxt"
+     android:padding="5dp"
+     android:paddingBottom="5dp"
+     android:paddingTop="25dp"
+     android:text="Reset" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp" >
+
+    </ListView>
+
+   
+
+</LinearLayout>
